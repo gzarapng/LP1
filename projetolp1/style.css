@@ -1,0 +1,123 @@
+body {
+    
+    background: linear-gradient(
+      to right,
+      #fde1bc,
+      #a08b71,
+      #fde1bc
+      
+    );
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #maincontainer{
+      width:100%;
+      
+  }
+
+  #titleindex{
+    
+    width: 100%;
+    border:0;
+    border-radius: 0%;
+    background: linear-gradient(
+      to right,
+      #aa8555,
+      #6b563a,
+      #aa8555);
+    
+  }
+  #headerlink{
+    text-decoration: none;
+    color:black;
+    font-style: bolder;}
+  #headerlink:hover{
+    box-shadow: 1rem white;
+    filter:drop-shadow(2px 2px 2px white);
+  }
+  label{
+      font-size: 1rem;
+  }
+  #formdiv{
+      
+      display: inline-block;
+      border: 1rem black;
+      width: 100%;
+     
+      
+  }
+  #carousel1{
+    width:50%;
+  }
+  #carouselcontainer{
+    width:50%;
+  }
+  #form1sel{
+    width:25%;
+    display: inline-block;
+  }
+  #formtext{
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    padding:2rem;
+     background: linear-gradient(
+      to right,
+      #aa8555,
+      #6b563a,
+      #aa8555
+      
+    );
+    float: bottom;
+    margin:0;
+    position: static;
+    bottom: 0;
+    margin-top: 30%;
+    justify-content: space-evenly;
+    color: whitesmoke;
+  }
+  .ifcontainer {
+    width: 5%;
+    align-items: center;
+    border-radius: 50px;
+    vertical-align: middle;
+  }
+  .ifcontainerlogo:hover {
+    filter: drop-shadow(2px 2px 2px gray);
+  }
+  .ifcontainerlogo {
+    width: 2%;
+    height: 10%;
+  }
+  .footercontainertext {
+    font-family: "Merrywheater", serif;
+    font-size: 0.8rem;
+    width: 40%;
+  }
+  .footercontainerlinks {
+    width: 5%;
+    display: table;
+    vertical-align: middle;
+    padding: 4px 2px;
+  }
+  .footercontainerlinks a {
+    display: table-cell;
+    vertical-align: 2px middle;
+    padding: 8px;
+  }
+  .footercontainerlinks a:hover {
+    filter: drop-shadow(2px 2px 2px lightgray);
+  }
+ span{
+  font-family: 'Montserrat', sans-serif;
+  
+ }
+  
+  
